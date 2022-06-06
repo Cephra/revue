@@ -1,4 +1,6 @@
 <template>
+  <section>
+  </section>
   <section data-auto-animate>
     <h1>JUST</h1>
   </section>
