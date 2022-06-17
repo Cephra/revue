@@ -15,7 +15,7 @@ export default {
   name: 'App',
   async mounted() {
     await Reveal.initialize({
-      autoSlide: 1000,
+      autoSlide: 500,
       autoSlideStoppable: false,
       
       loop: true,
@@ -39,7 +39,7 @@ export default {
 
 <style>
 @import url('../node_modules/reveal.js/dist/reveal.css');
-@import url('../node_modules/reveal.js/dist/theme/solarized.css');
+@import url('../node_modules/reveal.js/dist/theme/blood.css');
 
 #app {
   -webkit-font-smoothing: antialiased;
