@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 git pull
-yarn install
-yarn build
+npm install
+npm run build
 DIR=/srv/http/0x29a.me
 sudo rm -rf $DIR
 sudo mv dist $DIR
