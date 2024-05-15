@@ -18,18 +18,19 @@ export default {
       autoSlide: 1000,
       autoSlideStoppable: false,
       
+      center:true,
+      
       loop: true,
       progress: false,
 
       controls: false,
+      controlsTutorial: false,
       keyboard: false,
       touch: false,
       
       pause: false,
+      progress: false,
     });
-  },
-  async beforeUnmounted() {
-    console.log('beforeUnmounted');
   },
   components: {
     SlideOne
@@ -45,6 +46,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100vh;
+  touch-action: none;
 }
 [v-cloak] {
   display: none;

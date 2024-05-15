@@ -11,7 +11,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
-    "reveal.js": "5.1.0",
+    "reveal.js": "^5.1.0",
     "vue": "^3.4.21"
   },
   "devDependencies": {
