@@ -1,6 +1,6 @@
 <template>
   <div class="reveal">
-    <div class="slides">
+    <div data-prevent-swipe class="slides">
       <SlideOne/>
     </div>
   </div>
@@ -30,6 +30,10 @@ export default {
       
       pause: false,
       progress: false,
+      help: false,
+      
+      viewDistance: 5,
+      mobileViewDistance: 5,
     });
   },
   components: {
